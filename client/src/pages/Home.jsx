@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import PostCard from '../components/PostCard'
 import { Blockquote, Button } from 'flowbite-react'
+import ClipLoader from 'react-spinners/ClipLoader'
 
 export default function Home() {
   const [posts, setPosts] = useState([])
@@ -34,7 +35,7 @@ export default function Home() {
       </div>
 
       <div className='max-w-6xl mx-auto p-3 flex flex-col gap-8 py-7'>
-        {posts && posts.length > 0 && (
+        {posts && posts.length > 0 ? (
           <div className='flex flex-col gap-6'>
             <h2 className='text-2xl font-semibold text-center'>Recent Posts</h2>
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
@@ -49,6 +50,11 @@ export default function Home() {
               View all posts
             </Link>
           </div>
+        ) : (
+          <div className='flex justify-center items-center h-64'>
+            <ClipLoader color="#3268a8" />
+          </div>
+
         )}
       </div>
     </div>
