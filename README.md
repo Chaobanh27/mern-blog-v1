@@ -24,15 +24,9 @@ In the second terminal
 * Supply the following credentials
 
 ~~~~
-#  ---  Config.env  ---
-
-NODE_ENV = development
-PORT =5000
-URI =http://localhost:3000
+#  --- .env  ---
 MONGO_URI =
-JWT_SECRET_KEY =
-JWT_EXPIRE = 60m
-RESET_PASSWORD_EXPIRE = 3600000 
+JWT_SECRET =
 ~~~~
 
 ~~~~
@@ -79,8 +73,18 @@ This project was created using the following technologies.
 
 ## Screenshots
 
-Updating...
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Home](https://res.cloudinary.com/dbk1x83kg/image/upload/v1712389047/mern-blog%20preview%20images/Screenshot_2024-04-06_143433_fnzuio.png)
+
+![Signin](https://res.cloudinary.com/dbk1x83kg/image/upload/v1712389046/mern-blog%20preview%20images/Screenshot_2024-04-06_143407_kzhtpq.png)
+
+![Signup](https://res.cloudinary.com/dbk1x83kg/image/upload/v1712389046/mern-blog%20preview%20images/Screenshot_2024-04-06_143417_nyog39.png)
+
+![Comment](https://res.cloudinary.com/dbk1x83kg/image/upload/v1712389046/mern-blog%20preview%20images/Screenshot_2024-04-06_143510_hbewr2.png)
+
+![Dashboard](https://res.cloudinary.com/dbk1x83kg/image/upload/v1712389651/mern-blog%20preview%20images/Screenshot_2024-04-06_144718_u3hvlf.png)
+
+![ListBlogs](https://res.cloudinary.com/dbk1x83kg/image/upload/v1712389047/mern-blog%20preview%20images/Screenshot_2024-04-06_143451_ggi41f.png)
+
 
 
 ## Authors
