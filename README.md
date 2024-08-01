@@ -25,7 +25,8 @@ In the second terminal
 
 ~~~~
 #  --- .env  ---
-MONGO_URI =
+apiKey = 
+MONGO_URI = 
 JWT_SECRET =
 ~~~~
 
